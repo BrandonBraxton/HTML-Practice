@@ -2,16 +2,31 @@
 <html>
 
 <head>
-    <title>Example</title>
+    <title>Example of Links </title>
 
     <body>
-        <h1> My First Page</h1>
+        <h1> Simple Link to Goggle (_self - opens in same window) </h1>
         <p> Here is a link to Google </p>
         <a href="https://www.google.com">A link to Google</a>
         <hr>
-        <h2> A secondary header</h2>
-        <p> More text </p>
+        <h2> Link to Google in New Tab/Window (_target = _blank) </h2>
+        <p> Here is another link to Google</p>
+        <a href="http://www.google.com" target="_blank">A link to Google</a>
+        <hr>
+        <h2> Link to Google in Parent Frame (_target = _parent) </h2>
+        <p> Here is another link to Google</p>
+        <a href="http://www.google.com" target="_parent">A link to Google</a>
+        <hr>
+        <h2> Link to Google in Full Body of the Window (target = _top) </h2>
+        <p> Here is another link to Google</p>
+        <a href="http://www.google.com" target="_top">A link to Google</a>
+        <hr>
+        <h2> Button as a Link </h2>
+        <p> Here is another link to Google</p>
+        <button onclick="document.location='http://www.google.com'" >GOOGLE</button>
     </body>
+    
+
 </head>
 
 </html>

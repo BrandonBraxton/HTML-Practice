@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+h1 {
+    color:deeppink;
+    font-family: Verdana;
+    font-size:xx-large;
+}
+p {
+    color:cyan;
+    font-family: Times;
+    font-size: xx-small;
+    border: 5px dashed yellow;
+    /*Padding - space btwn txt and border*/
+    padding: 10px
+}
